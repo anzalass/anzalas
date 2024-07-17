@@ -32,7 +32,7 @@ export default function Contactpage() {
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
-                src="/src/assets/whatsapp.svg"
+                src="/whatsapp.svg"
                 alt=""
               />
               <p className="mt-7 ml-3 font-noto font-medium">Whatsapp</p>
@@ -42,7 +42,7 @@ export default function Contactpage() {
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
-                src="/src/assets/instagram.svg"
+                src="/instagram.svg"
                 alt=""
               />
               <p className="mt-7 ml-3 font-noto font-medium">Instagram</p>
@@ -52,7 +52,7 @@ export default function Contactpage() {
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
-                src="/src/assets/github.svg"
+                src="/github.svg"
                 alt=""
               />
               <p className="mt-7 ml-3 font-noto font-medium">Github</p>
@@ -62,7 +62,7 @@ export default function Contactpage() {
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
-                src="/src/assets/Linkedin.png"
+                src="/Linkedin.png"
                 alt=""
               />
               <p className="mt-7 ml-3 font-noto font-medium">Linkedln</p>

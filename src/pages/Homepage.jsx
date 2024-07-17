@@ -83,7 +83,7 @@ export default function Homepage() {
           <div className="xl:flex lg:block md:block block gap-1 w-full mx-auto">
             <div className="xl:w-[50%] lg:w-[50%] ">
               <img
-                src="/src/assets/saya.png"
+                src="/saya.png"
                 className="bg-white  w-[255px] mt-5 h-[255px] object-contain o rounded-md"
                 alt=""
               />

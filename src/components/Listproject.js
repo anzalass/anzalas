@@ -1,7 +1,7 @@
 export const listproject = [
   {
     name: "Ecommerce Initoko",
-    image: "/src/assets/initoko.png",
+    image: "/initoko.png",
     github: "",
     byname: "initoko",
     // img: [
@@ -19,7 +19,7 @@ export const listproject = [
   },
   {
     name: "Pelayanan Pelanggan",
-    image: "/src/assets/grasi.png",
+    image: "/grasi.png",
     github: "",
     latar:
       "Meningkatkan pelayanan kepada pelanggan Efisiensi operasional proses pembayaran dan pelayanan customer service Dengan penerapan teknologi, kedua point diatas bisa berjalan dengan baik",
@@ -28,13 +28,13 @@ export const listproject = [
   },
   // {
   //   name: "Digikost",
-  //   image: "/src/assets/digikost.png",
+  //   image: "/digikost.png",
   //   github: "",
   // },
   {
     name: "Green Environment - Disappear",
     byname: "disappear",
-    image: "/src/assets/disappearr.png",
+    image: "/disappearr.png",
     github: "",
     latar:
       "Kurangnya kesadaran tentang pentingnya menjaga lingkungan serta minimnya pemahaman tentang bahaya plastik telah menyebabkan dampak negatif bagi lingkungan. Keterbatasan produk ramah lingkungan juga menjadi kendala. Selain itu, produk plastik lebih praktis dan terjangkau dibandingkan produk ramah lingkungan, itu mempengaruhi preferensi konsumen dan memperlambat peralihan ke pola konsumsi yang lebih berkelanjutan. Permasalahan di atas dapat diatasi dengan dibuatnya sebuah aplikasi penjualan produk ramah lingkungan yang mudah diakses, menyediakan informasi tentang dampak lingkungan, dan mendorong gaya hidup berkelanjutan dengan memberikan insentif kepada pengguna yang memilih produk ramah lingkungan.",
@@ -42,7 +42,7 @@ export const listproject = [
   },
   {
     name: "API Server Find N Seek",
-    image: "/src/assets/fns.png",
+    image: "/fns.png",
     github: "",
     byname: "findnseek",
     latar:

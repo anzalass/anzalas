@@ -26,7 +26,7 @@ export default function Navbar({ utama }) {
         <section>
           <Link to={"/"} className="flex">
             <img
-              src="/src/assets/Narutowebp.webp"
+              src="/Narutowebp.webp"
               className="w-[30px] rounded-full h-[30px]"
               alt=""
             />
