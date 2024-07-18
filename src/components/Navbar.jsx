@@ -22,7 +22,7 @@ export default function Navbar({ utama }) {
 
   return (
     <nav className="w-full mx-auto">
-      <div className=" xl:w-[55%] lg:w-[w-[60%] md:w-full w-full flex justify-between mx-auto">
+      <div className=" 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full flex justify-between mx-auto">
         <section>
           <Link to={"/"} className="flex">
             <img
@@ -35,7 +35,7 @@ export default function Navbar({ utama }) {
             </h1>
           </Link>
         </section>
-        <section className="flex gap-7 font-noto font-[600] text-[16px] leading-[28px]  ">
+        <section className="flex 700px:gap-7 gap-3 font-noto font-[600] 600px:text-[16px] text-sm leading-[28px]  ">
           <Link to={"/about"}>
             <h1>About</h1>
           </Link>

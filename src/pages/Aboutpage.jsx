@@ -12,7 +12,10 @@ export default function Aboutpage() {
   return (
     <>
       <Navbar />
-      <div className="xl:w-[55%] lg:w-w-[60%] md:w-full w-full mx-auto">
+      <hr className=" mx-auto mt-2 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full" />
+      <div
+        className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
+      >
         <div className=" mt-5 gap-2 mx-auto grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 grid-cols-2">
           <button
             onClick={() => setactive(0)}

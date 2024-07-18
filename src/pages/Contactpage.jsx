@@ -8,8 +8,11 @@ export default function Contactpage() {
   return (
     <>
       <Navbar />
-      <div className="xl:w-[55%] lg:w-w-[60%] md:w-full w-full text-start mx-auto">
-        <div className="mt-10 font-noto font-[500]">
+      <hr className=" mx-auto mt-2 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full" />
+      <div
+        className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
+      >
+        <div className="mt-10 text-start font-noto font-[500]">
           <p className="leading-8">
             Jika ada keperluan silahkan hubungi saya melalui{" "}
             <a
@@ -28,7 +31,11 @@ export default function Contactpage() {
           </p>
         </div>
         <div className="block">
-          <Link to={"/"}>
+          <Link
+            to={
+              "https://api.whatsapp.com/send/?phone=62859102604165&text&type=phone_number&app_absent=0"
+            }
+          >
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
@@ -38,7 +45,7 @@ export default function Contactpage() {
               <p className="mt-7 ml-3 font-noto font-medium">Whatsapp</p>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"https://www.instagram.com/anzalass/"}>
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
@@ -48,7 +55,7 @@ export default function Contactpage() {
               <p className="mt-7 ml-3 font-noto font-medium">Instagram</p>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"https://github.com/anzalass"}>
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
@@ -58,7 +65,7 @@ export default function Contactpage() {
               <p className="mt-7 ml-3 font-noto font-medium">Github</p>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"https://www.linkedin.com/in/muhamadgemparanzalas/"}>
             <div className="flex">
               <img
                 className="w-[40px] h-[40px] object-contain mt-5"
