@@ -63,10 +63,12 @@ export default function Homepage() {
   return (
     <>
       <Navbar utama={"utama"} />
-      <hr className="xl:w-[55%] lg:w-[w-[60%] md:w-full w-full mx-auto" />
-      <div className={`xl:w-[55%] lg:w-[w-[60%] md:w-full w-full mx-auto  `}>
-        <div className="mt-10 wfull text-start">
-          <h1 className="font-inter font-[700] text-2xl">
+      <hr className=" mx-auto mt-2 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full" />
+      <div
+        className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
+      >
+        <div className="mt-10 w-full text-start">
+          <h1 className="font-inter font-[700] 800px:text-2xl text-[16px]">
             Hai, Saya Muhamad Gempar Anzalas 👋
           </h1>
           <p

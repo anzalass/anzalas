@@ -18,7 +18,10 @@ export default function DetailProject() {
   return (
     <>
       <Navbar />
-      <div className="xl:w-[55%] relative lg:w-w-[60%] md:w-full w-full mx-auto">
+      <hr className=" mx-auto mt-2 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full" />
+      <div
+        className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
+      >
         <div className="w-full absolute top-0 left-0 overflow-y-auto">
           {seemore &&
             iframe?.img?.map((d, i) => (
