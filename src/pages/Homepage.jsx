@@ -5,7 +5,7 @@ import { ThemeContext } from "../App";
 import { Quotess } from "../components/quotes";
 
 const useTypewriter = ({ words, loop, typeSpeed, deleteSpeed }) => {
-  const [index, setIndex] = useState(Math.floor(Math.random() * 101));
+  const [index, setIndex] = useState(Math.floor(Math.random() * 100));
   const [subIndex, setSubIndex] = useState(0);
   const [forward, setForward] = useState(true);
   const [text, setText] = useState("");
@@ -65,12 +65,13 @@ export default function Homepage() {
       <div
         className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
       >
+        <audio src="https://www.youtube.com/watch?v=OpQFFLBMEPI" />
         <div className="mt-5 w-full text-start">
           <div className="">
             <img
               src="https://cdn.dribbble.com/users/1098837/screenshots/3843460/hellowdribbble.gif"
               alt=""
-              className="h-[160px] object-cover w-full rounded-md"
+              className="h-[150px] object-cover w-full rounded-md"
             />
           </div>
           <h1 className="font-inter mt-4 font-[700] 800px:text-2xl text-[16px]">
@@ -87,15 +88,15 @@ export default function Homepage() {
             <h1>Tangerang, Banten📍</h1>
           </div>
 
-          <div className="xl:flex lg:block md:block block gap-1 w-full mx-auto">
-            <div className="xl:w-[50%] lg:w-[50%] ">
-              {/* <img
+          <div className="block gap-1 w-full mx-auto">
+            {/*  <div className="xl:w-[50%] lg:w-[50%] ">
+              <img
                 src="/saya.png"
                 className="bg-white  w-[255px] mt-5 h-[255px] object-contain o rounded-md"
                 alt=""
-              /> */}
-            </div>
-            <div className="xl:w-[70%]  xl:my-auto lg:my-auto mt-3 ">
+              /> 
+            </div>*/}
+            <div className=" mt-3 w-full">
               <h1 className="">
                 <span className="underline italic">For You</span> <span>🫵</span>
               </h1>
