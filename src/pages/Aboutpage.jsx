@@ -79,6 +79,11 @@ export default function Aboutpage() {
             Tentang Saya 🧑‍🔧
           </h1>
           <hr className="mt-2 h-3" />
+          <img
+            src="/saya.png"
+            className="bg-white mx-auto w-[155px] mt-5 h-[155px] rounded-full object-contain "
+            alt=""
+          />
           <p className="mt-5 font-noto text-[17px] font-[500] leading-7 ">
             Saya mempunyai pengalaman dalam pengembangan Backend, saya mempunyai
             keahlian dalam merancang, mengembangkan dan mengimplementasikan
