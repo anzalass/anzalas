@@ -96,7 +96,9 @@ export default function Homepage() {
               /> */}
             </div>
             <div className="xl:w-[70%]  xl:my-auto lg:my-auto mt-3 ">
-              <h1 className="underline italic">For You</h1>
+              <h1 className="">
+                <span className="underline italic">For You</span> <span>🫵</span>
+              </h1>
               <h1
                 className={` mt1 font-noto text-[17px] font-[500] leading-7  italic  ${
                   tema == "light" ? " text-zinc-800" : ""
