@@ -70,7 +70,7 @@ export default function Homepage() {
             <img
               src="https://cdn.dribbble.com/users/1098837/screenshots/3843460/hellowdribbble.gif"
               alt=""
-              className="h-[100px] object-cover w-full rounded-md"
+              className="h-[160px] object-cover w-full rounded-md"
             />
           </div>
           <h1 className="font-inter mt-4 font-[700] 800px:text-2xl text-[16px]">
