@@ -5,7 +5,7 @@ import { ThemeContext } from "../App";
 import { Quotess } from "../components/quotes";
 
 const useTypewriter = ({ words, loop, typeSpeed, deleteSpeed }) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(Math.floor(Math.random() * 101));
   const [subIndex, setSubIndex] = useState(0);
   const [forward, setForward] = useState(true);
   const [text, setText] = useState("");
@@ -42,8 +42,6 @@ const useTypewriter = ({ words, loop, typeSpeed, deleteSpeed }) => {
 
 export default function Homepage() {
   const { tema, settema } = useContext(ThemeContext);
-  const [quote, setquote] = useState("");
-  let [indexquote, setindexquote] = useState(0);
 
   // setTimeout(() => {
   //   setquote(Quotess[indexquote]);
@@ -56,8 +54,8 @@ export default function Homepage() {
   const { text } = useTypewriter({
     words: Quotess,
     loop: true,
-    typeSpeed: 50,
-    deleteSpeed: 2,
+    typeSpeed: 100,
+    deleteSpeed: 20,
   });
 
   return (
@@ -67,9 +65,16 @@ export default function Homepage() {
       <div
         className={` mx-auto 500px:w-[80%] 600px:w-[80%] 700px:w-[60%] 800px:w-[60%] 900px:w-[60%] w-full`}
       >
-        <div className="mt-10 w-full text-start">
-          <h1 className="font-inter font-[700] 800px:text-2xl text-[16px]">
-            Hai, Saya Muhamad Gempar Anzalas 👋
+        <div className="mt-5 w-full text-start">
+          <div className="">
+            <img
+              src="https://cdn.dribbble.com/users/1098837/screenshots/3843460/hellowdribbble.gif"
+              alt=""
+              className="h-[100px] object-cover w-full rounded-md"
+            />
+          </div>
+          <h1 className="font-inter mt-4 font-[700] 800px:text-2xl text-[16px]">
+            Saya Muhamad Gempar Anzalas 👋
           </h1>
           <p
             className={`font-noto font-medium text-sm ${
@@ -78,21 +83,22 @@ export default function Homepage() {
           >
             Software Engineer
           </p>
-          <div className="my-auto text-start mt-3 font-noto font-medium">
+          <div className="my-auto text-start mt-1 font-noto font-medium">
             <h1>Tangerang, Banten📍</h1>
           </div>
 
           <div className="xl:flex lg:block md:block block gap-1 w-full mx-auto">
             <div className="xl:w-[50%] lg:w-[50%] ">
-              <img
+              {/* <img
                 src="/saya.png"
                 className="bg-white  w-[255px] mt-5 h-[255px] object-contain o rounded-md"
                 alt=""
-              />
+              /> */}
             </div>
-            <div className="xl:w-[70%]  xl:my-auto lg:my-auto mt-5 ">
+            <div className="xl:w-[70%]  xl:my-auto lg:my-auto mt-3 ">
+              <h1 className="underline italic">For You</h1>
               <h1
-                className={` mt-10 font-noto text-[17px] font-[500] leading-7  italic  ${
+                className={` mt1 font-noto text-[17px] font-[500] leading-7  italic  ${
                   tema == "light" ? " text-zinc-800" : ""
                 } `}
               >
